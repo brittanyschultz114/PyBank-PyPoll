@@ -59,7 +59,6 @@ with open(output_file, "w", newline='') as txt_file:
     txt_file.write('------------------------------------\n')
     for i in range(len(candidate)):
         txt_file.write(f"{candidate[i]}: {str(percent_votes[i])} ({str(results[i])})" + "\n")
-    # txt_file.write('\n')
     txt_file.write('------------------------------------\n')
     txt_file.write(f"Winner: {winning_candidate}\n")
     txt_file.write('------------------------------------\n')
